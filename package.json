@@ -1,0 +1,17 @@
+{
+  "name": "react-scaffold",
+  "version": "1.0.0",
+  "description": "一个使用webpack4搭建的react脚手架",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  }
+}
