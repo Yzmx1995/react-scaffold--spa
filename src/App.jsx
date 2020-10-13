@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>标题:{this.state.testMsg}</h2>
+        <h2>标题:{process.env.NODE_ENV}</h2>
         <h1>
           /* IFTRUE_development */
           development
